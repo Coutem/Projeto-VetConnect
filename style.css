@@ -1,0 +1,113 @@
+.cabecalho {
+    background-color: white; /* Cor de fundo branca */
+    display: flex; /* Ativa o Flexbox (coloca os elementos lado a lado) */
+    justify-content: space-between; /* Joga um item para a esquerda e outro para a direita */
+    align-items: center; /* Alinha os itens verticalmente no centro */
+    padding: 20px; /* Espaço interno dentro do cabeçalho */
+    border-bottom: 2px solid #7d855c; /* Linha verde na parte de baixo */
+}
+
+.logo {
+    height: 90px; /* Define a altura da imagem */
+    width: auto; /* Mantém a proporção da imagem automaticamente */
+}
+
+.links {
+    list-style: none; /* Remove as bolinhas da lista */
+    display: flex;
+    gap: 20px; /* Espaço entre os itens do menu */
+}
+
+.links a {
+    text-decoration: none; /* Remove o sublinhado do link */
+    font-weight: bold; /* Deixa o texto em negrito */
+    color: #333; /* Cor padrão do texto */
+    transition: 0.3s; /* Cria uma transição suave quando algo muda */
+}
+
+.links a:hover {
+    color: #7d855c; /* Quando passa o mouse, muda para verde */
+}
+
+.hero {
+    text-align: center; 
+    padding: 40px 20px; 
+}
+
+.hero img {
+    max-width: 100%; /* A imagem nunca passa do tamanho da tela */
+    border-radius: 10px; /* Deixa as bordas arredondadas */
+}
+
+.hero-texto {
+    margin-top: 20px; 
+    /* Espaço acima do texto */
+}
+
+.hero-texto button {
+    padding: 10px 20px; 
+    background-color: #7d855c; 
+    color: white; 
+    border: none; /* Remove a borda padrão */
+    border-radius: 5px; 
+    cursor: pointer; /* Mostra a mãozinha ao passar o mouse */
+    transition: 0.3s; /* Transição suave */
+}
+
+.hero-texto button:hover {
+    background-color: #5f6644; 
+}
+
+.servicos {
+    padding: 50px 20px; 
+    text-align: center; 
+}
+
+.servicos h2 {
+    margin-bottom: 30px; /* Espaço abaixo do título */
+}
+
+.grade-servicos {
+    display: flex; 
+    flex-direction: column; /* Coloca os cards um embaixo do outro */
+    align-items: center; 
+    gap: 30px; 
+    margin-top: 30px; /* Espaço acima dos cards */
+}
+
+.card {
+    background-color: #ffffff; 
+    width: 80%; /* Ocupa 80% da largura da tela */
+    max-width: 500px; /* Limite máximo de largura */
+    padding: 20px; 
+    border-radius: 12px; 
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1); /* Sombra suave */
+    text-align: center; 
+    border-left: 6px solid #7d855c; /* Barra verde lateral */
+    transition: 0.3s; /* Animação suave */
+}
+
+.card:hover {
+    transform: scale(1.02); /* Aumenta levemente quando passa o mouse */
+}
+
+.card img {
+    width: 100%; /* Ocupa toda a largura do card */
+    height: 200px; /* Altura fixa */
+    object-fit: cover; /* Ajusta a imagem sem distorcer */
+    border-radius: 10px; 
+    margin-bottom: 15px; 
+}
+
+.card h3 {
+    color: #7d855c; /* Cor verde no título */
+    margin-bottom: 10px; /* Espaço abaixo do título */
+}
+
+.rodape {
+    background-color: #7d855c; 
+    color: white; 
+    text-align: center; 
+    padding: 20px; 
+    margin-top: 40px; /* Espaço acima do rodapé */
+}
