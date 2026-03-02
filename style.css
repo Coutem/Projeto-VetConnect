@@ -35,7 +35,7 @@
 }
 
 .hero img {
-    max-width: 100%; /* A imagem nunca passa do tamanho da tela */
+    max-width: 80%; /* A imagem nunca passa do tamanho da tela */
     border-radius: 10px; /* Deixa as bordas arredondadas */
 }
 
